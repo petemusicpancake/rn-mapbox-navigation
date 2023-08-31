@@ -1,0 +1,39 @@
+{
+  "name": "rn-mapbox-navigation",
+  "title": "React Native Mapbox Navigation",
+  "version": "1.0",
+  "description": "Smart Mapbox turn-by-turn routing based on real-time traffic for React Native.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index",
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petemusicpancake/rn-mapbox-navigation.git",
+    "baseUrl": "https://github.com/petemusicpancake/rn-mapbox-navigation.git"
+  },
+  "keywords": [
+    "react-native",
+    "mapbox",
+    "navigation"
+  ],
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/petemusicpancake/rn-mapbox-navigation/issues"
+  },
+  "homepage": "https://github.com/petemusicpancake/rn-mapbox-navigation#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.4",
+    "typescript": "^5.1.3"
+  }
+}
